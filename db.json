@@ -1,0 +1,133 @@
+{
+ "status_reason": {
+  "reason": null,
+  "status": "Accepted",
+  "origin": "ASPSP"
+ },
+ "reports": [
+  {
+   "created_date_time": "2019-06-24T22:00:00.000Z",
+   "range": null,
+   "id": {
+    "country": "NO",
+    "currency": "EUR",
+    "type": "IBAN",
+    "value": "NO7999991234566",
+    "name": null
+   },
+   "account_type": "Current",
+   "alias": "Happy Account",
+   "name": "Salary Account",
+   "currency": "EUR",
+   "servicer": {
+    "bic": "TESTNO01",
+    "name": "aspsp-adapter-TESTNO01",
+    "country": "NO"
+   },
+   "entries": null,
+   "available_balance": null,
+   "booked_balance": null,
+   "supplementary_data": null
+  },
+  {
+   "created_date_time": "2019-06-24T22:00:00.000Z",
+   "range": null,
+   "id": {
+    "country": "NO",
+    "currency": "NOK",
+    "type": "BBAN",
+    "value": "99990512341",
+    "name": null
+   },
+   "account_type": "Spending",
+   "alias": "My account",
+   "name": "Spending Account",
+   "currency": "NOK",
+   "servicer": {
+    "bic": "TESTNO01",
+    "name": "aspsp-adapter-TESTNO01",
+    "country": "NO"
+   },
+   "entries": null,
+   "available_balance": null,
+   "booked_balance": null,
+   "supplementary_data": null
+  },
+  {
+   "created_date_time": "2019-06-24T22:00:00.000Z",
+   "range": null,
+   "id": {
+    "country": "NO",
+    "currency": "NOK",
+    "type": "BBAN",
+    "value": "99990843216",
+    "name": null
+   },
+   "account_type": "TransactingAccount",
+   "alias": "Family Expenses",
+   "name": "Shared Transacting Account",
+   "currency": "NOK",
+   "servicer": {
+    "bic": "TESTNO01",
+    "name": "aspsp-adapter-TESTNO01",
+    "country": "NO"
+   },
+   "entries": null,
+   "available_balance": null,
+   "booked_balance": null,
+   "supplementary_data": null
+  },
+  {
+   "created_date_time": "2019-06-24T22:00:00.000Z",
+   "range": null,
+   "id": {
+    "country": "NO",
+    "currency": "EUR",
+    "type": "IBAN",
+    "value": "NO6299994214324",
+    "name": null
+   },
+   "account_type": "CurrentAccount",
+   "alias": "AllPurpose",
+   "name": "All Purpose Account",
+   "currency": "EUR",
+   "servicer": {
+    "bic": "TESTNO01",
+    "name": "aspsp-adapter-TESTNO01",
+    "country": "NO"
+   },
+   "entries": null,
+   "available_balance": null,
+   "booked_balance": null,
+   "supplementary_data": null
+  },
+  {
+   "created_date_time": "2019-06-24T22:00:00.000Z",
+   "range": null,
+   "id": {
+    "country": "NO",
+    "currency": "NOK",
+    "type": "IBAN",
+    "value": "NO2799991231234",
+    "name": null
+   },
+   "account_type": "RentAccount",
+   "alias": "Rent",
+   "name": "Rent Account",
+   "currency": "NOK",
+   "servicer": {
+    "bic": "TESTNO01",
+    "name": "aspsp-adapter-TESTNO01",
+    "country": "NO"
+   },
+   "entries": null,
+   "available_balance": null,
+   "booked_balance": null,
+   "supplementary_data": null
+  }
+ ],
+ "links": {
+  "query": "/api/v1/ais/queries/9a0a94ee042d42ad940947f8da762241",
+  "self": "/api/v1/ais/queries/9a0a94ee042d42ad940947f8da762241/info"
+ }
+}
